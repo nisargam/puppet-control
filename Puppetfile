@@ -35,14 +35,14 @@ mod 'ntp',
 mod 'role',
   #:git => 'https://github.com/rivethead42/puppet-role.git',
   :git => 'https://github.com/nisargam/puppet-role.git',
-  #:ref => 'master'
-  :ref => 'development'
+  :ref => 'master'
+  #:ref => 'development'
 
 mod 'profile',
   #:git => 'git@github.com:rivethead42/puppet-profile.git',
   :git => 'https://github.com/nisargam/puppet-profile.git',
-  #:ref => 'master'
-  :ref => 'development'
+  :ref => 'master'
+  #:ref => 'development'
 
 #mod 'nginx',
 #  :git => 'git@github.com:rivethead42/puppet-nginx.git', 
