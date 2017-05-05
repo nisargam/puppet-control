@@ -10,6 +10,7 @@ mod "puppet/selinux",         '0.8.0'
 mod "garethr/docker",         '5.3.0'
 mod "puppetlabs/apt",         '2.3.0'
 mod "stahnma/epel",           '1.2.2'
+mod 'puppetlabs-firewall',    '1.8.2'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
@@ -35,11 +36,13 @@ mod 'role',
   #:git => 'https://github.com/rivethead42/puppet-role.git',
   :git => 'https://github.com/nisargam/puppet-role.git',
   :ref => 'master'
+  #:ref => 'development'
 
 mod 'profile',
   #:git => 'git@github.com:rivethead42/puppet-profile.git',
   :git => 'https://github.com/nisargam/puppet-profile.git',
   :ref => 'master'
+  #:ref => 'development'
 
 #mod 'nginx',
 #  :git => 'git@github.com:rivethead42/puppet-nginx.git', 
