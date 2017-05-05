@@ -1,0 +1,12 @@
+---
+profile::apache1::apache_vhost_servers: {
+ 'solarmitra2.mylabserver.com': {
+  port: 80,
+  docroot: '/var/ww/solarmitra2'
+  },
+
+'solarmitra2b.mylabserver.com': {
+  port: 80,
+  docroot: '/var/ww/solarmitra2b'
+  }
+}
